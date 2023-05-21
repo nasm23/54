@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title> bai 5 buoi 8</title>
+        <style>
+            .con{
+               
+                display: grid;
+                margin:auto;
+                width: 80%;
+                grid-template-areas: 
+                    'head '
+                    'conten '
+                    'footer ';
+            }
+            .i1{
+                border:2px solid skyblue;
+                grid-area: head;
+                width: 1200px;
+                height:100px;
+                margin:auto;
+            }
+            .i2{
+                border:2px solid skyblue;
+                grid-area: conten;
+                width: 1000px;
+                height:500px;
+                margin:auto;
+            }
+            .i3
+            {
+                border:2px solid skyblue;
+                grid-area: footer;
+                width: 1000px;
+                height:100px;
+                margin:auto;
+            }
+            .menu ul{
+            list-style-type: none;
+            text-align: center;
+            height:100px;
+            width: 500px;
+            
+            color:blueviolet;
+            }
+        .menu ul li{
+            width: 100px;
+            height: 30px;
+            line-height: 20px;
+            padding:2px;
+            display: inline-block;
+            
+        }
+        .menu ul li a{
+            text-decoration: none;
+            color:blueviolet;
+            font-weight: bold;
+            
+        }
+        .menu ul li:hover{
+            color: darkslateblue;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="con">
+            <div class="i1">
+                <h1> &nbsp;&nbsp;&nbsp;Welcome to page of sleepy</h1>
+                <div class="menu" style="text-align:center">
+                    <ul>
+                        <li><a href="#">Cách ngủ</a></li>
+                        <li><a href="#">Tư thế</a></li>
+                        <li><a href="#">Thời gian</a></li>
+                        <li><a href="#">Thực phẩm</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="i2"></div>
+            <div class="i3"></div>
+        </div>
+    </body>
+</html>
